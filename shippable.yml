@@ -19,3 +19,6 @@ notifications:
          recipients:
              - exampleone@org.com
              - exampletwo@org.com
+
+after_success:
+  - echo "after success"
