@@ -22,3 +22,6 @@ notifications:
 
 after_success:
   - echo "after success"
+  
+after_failure:
+  - echo "failed"
