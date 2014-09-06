@@ -26,4 +26,4 @@ after_success:
 after_failure:
   - echo "failed"
   
-should_archive: true
+archive: true
