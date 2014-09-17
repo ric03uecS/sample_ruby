@@ -16,6 +16,9 @@ rvm:
 #env:
 #  - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
 
+addons:
+  firefox: "31.0"
+
 notifications:
      email:
          recipients:
