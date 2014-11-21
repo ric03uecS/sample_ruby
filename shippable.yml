@@ -26,6 +26,10 @@ rvm:
 #env:
 #  - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
 
+before_script:
+  - gem install jasmine
+  - rake jasmine:ci
+  
 notifications:
      email:
          recipients:
