@@ -26,12 +26,6 @@ rvm:
 #env:
 #  - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
 
-notifications:
-     email:
-         recipients:
-             - exampleone@org.com
-             - exampletwo@org.com
-
 after_success:
   - echo "after success"
   
